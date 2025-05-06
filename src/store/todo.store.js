@@ -8,11 +8,10 @@ export const Filters = {
 
 const state = {
   todos: [
-    new Todo('Piedra del alma'),
-    new Todo('Piedra del infinito'),
-    new Todo('Piedra del tiempo'),
-    new Todo('Piedra del poder'),
-    new Todo('Piedra del realidad'),
+    new Todo('Configurar el entorno de desarrollo'),
+    new Todo('Implementar la autenticación de usuarios'),
+    new Todo('Desplegar la aplicación en el servidor de pruebas'),
+    new Todo('Escribir pruebas unitarias para los componentes'),
   ],
   filter: Filters.All,
 }
